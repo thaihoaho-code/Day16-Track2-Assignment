@@ -1,6 +1,6 @@
 # Báo Cáo Thực Hành LAB 16: Cloud AI Environment Setup
 
-1. Tôi dùng GCP, us-central1-a, e2-medium (2 vCPU, 4GB RAM), source commit `55539f6`.
+1. Tôi dùng GCP, us-central1-a, e2-medium (2 vCPU, 4GB RAM), source commit `daf02a5`.
 2. Dataset Credit Card Fraud có 284,807 dòng, chia train/validation/test 60/20/20, seed 16.
 3. Load dữ liệu mất 2.79 giây; training mất 4.72 giây; best iteration của LightGBM là 68.
 4. Trên tập test, mô hình đạt AUC: 0.9768, Accuracy: 0.9995, F1: 0.8541, Precision: 0.9080, Recall: 0.8061.
