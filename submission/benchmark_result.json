@@ -1,0 +1,42 @@
+{
+  "recorded_at_utc": "2026-10-02T09:51:22.939941+00:00",
+  "architecture": "x86_64",
+  "versions": {
+    "python": "3.11.2",
+    "lightgbm": "4.7.0",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.4.6"
+  },
+  "dataset_rows": 284807,
+  "fraud_rows": 492,
+  "seed": 16,
+  "split": {
+    "train": 170883,
+    "validation": 56962,
+    "test": 56962
+  },
+  "n_jobs": 2,
+  "best_iteration": 68,
+  "decision_threshold": 0.34,
+  "threshold_selection": {
+    "method": "maximize_f1_on_validation",
+    "validation_precision": 0.8953488372093024,
+    "validation_recall": 0.7777777777777778,
+    "validation_f1": 0.8324324324324325
+  },
+  "auc_roc": 0.9768480003847346,
+  "accuracy": 0.9995259997893332,
+  "f1": 0.8540540540540541,
+  "precision": 0.9080459770114943,
+  "recall": 0.8061224489795918,
+  "data_load_seconds": 2.790662581000106,
+  "training_seconds": 4.721384553999997,
+  "latency_1_row_ms": 1.2270639999769628,
+  "latency_repeats": 50,
+  "batch_rows": 1000,
+  "batch_repeats": 30,
+  "batch_1000_rows_seconds": 0.0033744025001851696,
+  "throughput_1000_rows_per_second": 296348.7609866118,
+  "timing_summary": "median; warm-up excluded; predict_proba on pandas input"
+}
